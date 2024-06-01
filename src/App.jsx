@@ -1,4 +1,5 @@
 import './App.css'
+import avatarAchi from './assets/avatar-achi.jpg'
 
 function App() {
 
@@ -6,21 +7,21 @@ function App() {
     <div className="container">
       <div className="social_links_card">
         <div className="social_links_img_container">
-          <img src="" alt="Display pic for Achi Gyuse Achi" className="scoial_links_img" />
+          <img src={avatarAchi} alt="Display pic for Achi Gyuse Achi" className="social_links_img" />
         </div>
         <div className="social_links_name_location">
-          <h1 className="social_links_name">Achi Gyuse Achi</h1>
-          <h2 className="social_links_location">Lagos, Nigeria</h2>
+          <h1 className="social_links_name inter-600">Achi Gyuse Achi</h1>
+          <h2 className="social_links_location inter-700">Lagos, Nigeria</h2>
         </div>
         <div className="social_links_description_container">
-          <p className="social_links_description">&quot;Front-end developer and anime lover.&quot;</p>
+          <p className="social_links_description inter-400">&quot;Front-end developer and anime lover.&quot;</p>
         </div>
         <div className="social_links_container">
-          <a href="#" className="social_link">Github</a>
-          <a href="#" className="social_link">Frontend Mentor</a>
-          <a href="#" className="social_link">LinkedIn</a>
-          <a href="#" className="social_link">Twitter</a>
-          <a href="#" className="social_link">Instagram</a>
+          <a href="#" className="social_link inter-700">Github</a>
+          <a href="#" className="social_link inter-700">Frontend Mentor</a>
+          <a href="#" className="social_link inter-700">LinkedIn</a>
+          <a href="#" className="social_link inter-700">Twitter</a>
+          <a href="#" className="social_link inter-700">Instagram</a>
         </div>
       </div>
     </div>
