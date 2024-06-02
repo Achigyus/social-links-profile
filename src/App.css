@@ -59,11 +59,12 @@ body {
     border-radius: 12px;
     max-width: 384px;
     margin: auto;
-    padding: min(6.4vw, 24px);
+    padding: min(6.4vw, 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    width: 100%;
 }
 
 .social_links_name{
@@ -93,6 +94,11 @@ body {
     color: #c4f82a;
 }
 
+.social_links_description{
+    font-size: min(4.28vw, 14px);
+    line-height: 150%;
+}
+
 .social_links_container {
     width: 100%;
 }
@@ -103,6 +109,14 @@ body {
     padding: 12px;
     text-decoration: none;
     color: #fff;
+    font-size: min(4.28vw, 14px);
+    line-height: 150%;
+    transition: all ease-in-out 0.3s;
+}
+
+.social_link:hover{
+    background: #C4F82A;
+    color: #333333;
 }
 
 .attribution {

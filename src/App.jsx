@@ -17,10 +17,10 @@ function App() {
           <p className="social_links_description inter-400">&quot;Front-end developer and anime lover.&quot;</p>
         </div>
         <div className="social_links_container">
-          <a href="#" className="social_link inter-700">Github</a>
-          <a href="#" className="social_link inter-700">Frontend Mentor</a>
-          <a href="#" className="social_link inter-700">LinkedIn</a>
-          <a href="#" className="social_link inter-700">Twitter</a>
+          <a target='_blank' rel='noreferrer' href="https://github.com/Achigyus" className="social_link inter-700">Github</a>
+          <a target='_blank' rel='noreferrer' href="https://www.frontendmentor.io/profile/Achigyus" className="social_link inter-700">Frontend Mentor</a>
+          <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/achi-achi-441297153/" className="social_link inter-700">LinkedIn</a>
+          <a target='_blank' rel='noreferrer' href="https://x.com/ElUchihaAnbu" className="social_link inter-700">Twitter</a>
           <a href="#" className="social_link inter-700">Instagram</a>
         </div>
       </div>
