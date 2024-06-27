@@ -43,4 +43,3 @@ Users should be able to:
 
 - Website - [Achigyus](https://github.com/Achigyus)
 - Frontend Mentor - [@Achigyus](https://www.frontendmentor.io/profile/Achigyus)
-- Twitter - [@ElUchihaAnbu](https://www.twitter.com/ElUchihaAnbu)
